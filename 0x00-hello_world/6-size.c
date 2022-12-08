@@ -1,11 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - ptint out sizes of data types in C
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 	prinrf("Size of a char: %lu byte(s)\n", sizeof(char));
 	printf("Size of an int: %lu byte(s)\n", sizeof(int));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
