@@ -1,7 +1,7 @@
-#include<unistd.h>
+#include <stdio.h>
 /**
- * nain - prints the standrad error sandwiched around the  standard output
- * Return: returns 1
+ * main - prints the standrad error sandwiched around the  standard output
+ * Return: 1
  */
 int main(void)
 {
