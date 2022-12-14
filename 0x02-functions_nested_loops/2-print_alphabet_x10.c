@@ -21,4 +21,3 @@ void print_alphabet_x10(void)
 		i++;
 	}
 }
-	irintf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
