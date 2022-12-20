@@ -1,18 +1,17 @@
-#include "main.h"
-#include <stdio.h>
+#include"main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strlen - return the length of the string
+ * @s: char type pointer
+ * Return: length of string
  */
-int main(void)
-{
-	char *str;
-	int len;
 
-	str = "My first strlen!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (0);
+int _strlen(char *s)
+{
+	int c;
+
+	for (c = 0; s[c] != '\0'; c++)
+		;
+
+	return (c);
 }
