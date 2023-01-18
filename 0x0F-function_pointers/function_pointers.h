@@ -14,6 +14,6 @@ typedef enum bool
 {
 	TRUE = 1,
 	FALSE = 0
-}bool;
+} bool;
 
 #endif /* FUNCTION_POINTERS_H */
