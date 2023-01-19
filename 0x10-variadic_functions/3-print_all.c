@@ -24,7 +24,6 @@ void print_all(const char * const format, ...)
 				printf(", ");
 				break;
 			} j++;
-
 		}
 		switch (format[i])
 		{
